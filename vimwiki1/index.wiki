@@ -1,0 +1,8 @@
+work
+info
+resc
+task
+kmgr
+proj
+idea
+temp
