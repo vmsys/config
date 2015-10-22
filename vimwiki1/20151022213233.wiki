@@ -1,0 +1,3 @@
+head - output the first part of files
+
+head -8 file

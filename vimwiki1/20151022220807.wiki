@@ -1,0 +1,317 @@
+login
+logout
+reboot
+shutdown    -ktrhfFc--time      shutdown -r now
+							 shutdown -h now
+halt        -nwdfip
+init                            telinit -iS
+telinit                         telinit -iS
+su
+sudo
+issue
+uname
+dmesg
+hostname
+tty
+stty        -echo
+whoami
+who
+w
+id          -nu
+users
+last                            last -8 -f /var/log/btmp
+lastlog
+write
+wall
+mail
+mutt
+news
+startx
+xeyes
+xclock
+passwd
+useradd     -g
+adduser
+userdel     -r
+groupadd
+groupdel
+telnet
+ssh
+ftp
+lftp
+wget
+scp
+rsync       -v
+sync
+screen
+git
+svn
+ping        -c
+netstat
+nslookup
+ifconfig                        ifconfig eth0:tech 10.0.0.128/24
+ip          -link addr
+ifup
+ifdown
+bash
+exec
+gzexe       -d
+quote
+rpm                             rpm -qa
+ps                              ps aux | grep bash
+top
+kill        -9l
+xkill
+pkill
+pidof
+pwd
+cd                              cd -
+pushd
+popd
+ls          -alrR               time ls -Shl
+dd
+bc
+通配符
+正则表达式  []()^$\.*?+|
+dir
+tree
+gvfs-tree
+file
+stat
+du
+df          -h
+mount                           mount /mnt/cdrom/
+umount
+touch       -camh
+cat         -nbv
+tac
+more
+less
+head
+tail                            tail -f cron.log
+tee
+wc          -lwcmL
+echo        -ne                 echo $LANG          echo ok > /dev/pts/0
+printf
+mkdir       -p
+rmdir
+rm
+ln          -s
+tar         -ctxfvzj
+zcat
+cp          -virau
+yes
+mv          -viu
+rename      -vV                 rename 's/^/xxx/' *
+chmod
+chown       -R
+chgrp
+cal         -13y                 LANG=en_us cal 2014
+date        -s                  date +"%Y-%m-%d %H:%M:%S"
+time
+times
+sleep
+whatis
+makewhatis
+type
+builtin
+whereis
+which
+locate
+locale
+man
+info
+nano
+ed
+ex
+vi
+vim
+jobs
+fg
+bg
+&
+nohup
+view
+evim
+gvim
+source
+.
+crontab
+vimdiff
+diff        -u                  man pwd | col -b > stock.original 1.0upgrade2.0 wc -l
+patch       -b
+gcc
+g++
+ldd
+ld
+size
+nm
+find        -iname user group perm type size empty atime mtime ctime amin mmin cmin
+			 find . -mtime -1 -type f -print0 | xargs -0 tar rvf "$archive.tar"
+			 find . -mtime -1 -type f -exec tar rvf "$archive.tar" '{}' \;
+			 find . -type d -exec rmdir -p {} \; &>/dev/null
+			 find . -type f | wc -l
+			 mkdir bak0 && yes n|find ./[!_]* -name "*.pdf" -exec mv -iv {} ./_ebook/bak0 \; && ls -l _ebook/bak0|paste -|wc -l
+grep        -vcronABC --color
+sed
+awk
+sort        -fnrutk
+uniq        -cdu
+tr          -dsc                tr -s "[A-Z],[a-z],[0-9],[\n]" <demo.txt
+cut         -dfc                echo 12345 | cut -c2-4
+paste       -sd-
+split       -1bC                tar cjf - logs/ |split -b 1m - logs.tar.bz
+join        -tio a1 a2 v1 v2 -1 -2
+变量
+流程控制
+login
+logout
+reboot
+shutdown    -ktrhfFc--time      shutdown -r now
+							 shutdown -h now
+halt        -nwdfip
+init                            telinit -iS
+telinit                         telinit -iS
+su
+sudo
+issue
+uname
+dmesg
+hostname
+tty
+stty        -echo
+whoami
+who
+w
+id          -nu
+users
+last                            last -8 -f /var/log/btmp
+lastlog
+write
+wall
+mail
+mutt
+news
+startx
+xeyes
+xclock
+passwd
+useradd     -g
+adduser
+userdel     -r
+groupadd
+groupdel
+telnet
+ssh
+ftp
+lftp
+wget
+scp
+rsync       -v
+sync
+screen
+git
+svn
+ping        -c
+netstat
+nslookup
+ifconfig                        ifconfig eth0:tech 10.0.0.128/24
+ip          -link addr
+ifup
+ifdown
+bash
+exec
+gzexe       -d
+quote
+rpm                             rpm -qa
+ps                              ps aux | grep bash
+top
+kill        -9l
+xkill
+pkill
+pidof
+pwd
+cd                              cd -
+pushd
+popd
+ls          -alrR               time ls -Shl
+dd
+bc
+通配符
+正则表达式  []()^$\.*?+|
+dir
+tree
+gvfs-tree
+file
+stat
+du
+df          -h
+mount                           mount /mnt/cdrom/
+umount
+touch       -camh
+cat         -nbv
+tac
+more
+less
+head
+tail                            tail -f cron.log
+tee
+wc          -lwcmL
+echo        -ne                 echo $LANG          echo ok > /dev/pts/0
+printf
+mkdir       -p
+rmdir
+rm
+ln          -s
+tar         -ctxfvzj
+zcat
+cp          -virau
+yes
+mv          -viu
+rename      -vV                 rename 's/^/xxx/' *
+chmod
+chown       -R
+chgrp
+cal         -13y                 LANG=en_us cal 2014
+date        -s                  date +"%Y-%m-%d %H:%M:%S"
+time
+times
+sleep
+whatis
+makewhatis
+type
+builtin
+whereis
+which
+locate
+locale
+man
+info
+nano
+ed
+ex
+vi
+vim
+jobs
+fg
+bg
+&
+nohup
+view
+evim
+gvim
+source
+.
+crontab
+vimdiff
+diff        -u                  man pwd | col -b > stock.original 1.0upgrade2.0 wc -l
+patch       -b
+gcc
+g++
+ldd
+ld
+size
+nm
+find        -iname user group perm type size empty atime mtime ctime amin mmin cmin
+			 find . -mtime -1 -type f -print0 | xargs
+

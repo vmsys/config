@@ -1,0 +1,23 @@
+# 显示最后10行
+tail sys.log
+
+
+tail -vsf sys.log
+
+# 显示第5行开始的内容
+tail -n +5 sys.log
+
+# 显示最后5行
+tail -n 5 sys.log
+
+# 显示文件最后38个字节的内容
+tail -c 38 sys.log
+
+# 显示文件第38个字节开始之后的内容
+tail -c +38 sys.log
+
+# 跟踪(以文件描述符号方式)文件的增长 [[20151022205721|tipmsg]]
+tail -f sys.log
+
+# 跟踪文件增长（以文件名方式） [[20151022205702|tipmsg]]
+tail --follow=name sys.log 

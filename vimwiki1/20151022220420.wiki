@@ -1,0 +1,3 @@
+ nl - number lines of files
+ 
+ nl -ba -nrz -w3 sys.log 

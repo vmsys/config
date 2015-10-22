@@ -1,0 +1,9 @@
+tar — The GNU version of the tar archiving utility
+
+tar -tcxfzjv file.tar
+
+# 在文件夹当中，比某个日期新的文件才备份
+tar -N "2012/11/13" -zcvf log17.tar.gz test
+
+# 备份文件夹内容是排除部分文件
+tar --exclude scf/service -zcvf scf.tar.gz scf/*
