@@ -2,4 +2,5 @@ WebX5
 http://wex5.com/cn/wex5/
 Extjs
 http://www.qeefee.com/zt-extjs5
-
+tmux
+http://segmentfault.com/a/1190000002487382
