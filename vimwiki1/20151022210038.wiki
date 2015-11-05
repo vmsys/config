@@ -1,8 +1,0 @@
-cd
-cd /
-cd ~
-cd -
-cd ..
-cd !$
-cd `dirname $0`
-

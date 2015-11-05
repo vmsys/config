@@ -1,3 +1,0 @@
-dpkg - package manager for Debian
-
-dpkg -i qq.deb

@@ -1,3 +1,0 @@
- rm - remove files or directories
- 
- rm -ivrf files
